@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: aliceblue;
+	color: #333;
+	position: relative;
+}
+
+h1 {
+	margin: 0 0 1em 0;
+	padding: .5em 0 .5em .5em;
+	font-weight: lighter;
+}
+
+header {
+	background-color: #00BFFF;
+	color: #FFFFFF;
+	display: block;
+	width: 100%;
+	z-index: 99;
+
+}
+
+fieldset {
+	margin:.5em 1em;
+}
+
+input[type=number] {
+	width: 6em;
+}

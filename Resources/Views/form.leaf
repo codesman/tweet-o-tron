@@ -1,0 +1,8 @@
+#export("form") {
+    <form>
+        <input type="radio" name="format" value="yyyy/mm/dd">
+        <label>yyyy/mm/dd</label>
+        <input type="radio" name="format" value="mm/dd/yyyy">
+        <label>mm/dd/yyyy</label>
+    </form>
+}
